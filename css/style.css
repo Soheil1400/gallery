@@ -125,6 +125,8 @@ body{
     grid-area: gallery2;
     background-image: url("../img/128176fa-0cdd-48c1-9b06-5f68b21ae62e_rw_1920.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -143,6 +145,8 @@ body{
     grid-area: gallery4;
     background-image: url("../img/e73bcc61-1003-48e5-abc2-d7977b5b9425_rw_1920.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -152,6 +156,8 @@ body{
     grid-area: gallery5;
     background-image: url("../img/24dbc1fb-1f7d-42ed-92a0-5de1b541110c_rw_1920.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -164,6 +170,8 @@ body{
     grid-area: gallery6;
     background-image: url("../img/30eb2ce2-6caf-48da-8dbe-77b4d15a3fea_rw_1920.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -173,6 +181,8 @@ body{
     grid-area: gallery7;
     background-image: url("../img/8be71245-811c-47d3-90d6-e899373ebdd7_rw_1920.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -182,6 +192,8 @@ body{
     grid-area: gallery8;
     background-image: url("../img/8cd3e992-afc3-4b42-8578-3e21f5474aa4_rw_1920.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -272,8 +284,6 @@ label #sign-two{
     #res-menu:checked ~ label #sign-two{
         display: block;
         float: right;
-        position: fixed;
-        right: 0;
     }
     .a{
         align-content: center;
@@ -281,6 +291,9 @@ label #sign-two{
         align-items: center;
         justify-items: center;
         text-align: center;
+    }
+    .head{
+        padding: 13px;
     }
 }
 .a{
